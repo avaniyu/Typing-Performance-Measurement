@@ -1,12 +1,14 @@
 # Repo usage
-## [TextTest.exe](/TextTest_exe/)
-## [TextTest source code] (http://depts.washington.edu/madlab/proj/texttest/TextTest.zip)
-## [Interactive data analysis GUI]
+1. [__TextTest.exe__](/TextTest_exe/): out-of-box test app, there're several versions online, but this version is surely able to get correct format .CSV data analysis files.
+2. [__TextTest source code__](http://depts.washington.edu/madlab/proj/texttest/TextTest.zip): if you want to adapt the test app to your own use case (like derandomize example sentence order, customize app GUI to create realistic scenario like conversation).
+3. (optional) [__Interactive data analysis GUI__](/InteractiveDataAnalysis/): [install Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/install.html), then follow the instructions on [README.md](/InteractiveDataAnalysis/README.md)
 
 # Test process & results interpretation
-TextTest.exe
-TextTest source code (tweak space)
-Run Jupyter Notebook to see interactive data analysis
+![](TextTest_sampleScreenshot.png?raw=true)
+1. Make TextTest app up and running, either out-of-box app or adapted version.
+2. Have test participant transcribe sentences in the app
+3. From resulting .xaml files, use app menu 'Analyze' --> 'Logs' -> choose your .xaml files --> 'Main measures for each trial (*.CSV)', export analysis files
+4. Now you may do you own analysis, or use interactive data analysis 
 
 
 #### Reference
